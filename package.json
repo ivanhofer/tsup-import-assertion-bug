@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build:tsup": "tsup",
+    "build:esbuild": "tsx ./esbuild.ts"
+  },
+  "dependencies": {
+    "statuses": "^2.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.7",
+    "tsup": "^6.2.3",
+    "tsx": "^3.9.0"
+  }
+}
